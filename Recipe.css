@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex; 
+    height: 100vh; 
+}
+
+/* Left side styles */
+.left-side {
+    background-color: white; 
+    width: 70%; 
+    padding: 2em; 
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav h1 {
+    margin: 0;
+}
+
+/* Navigation links styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 5em;
+    margin: 0;
+    position: absolute; 
+    left: 505px; 
+    top:80px
+}
+
+nav a {
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em; 
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
+
+/* Recipe Section Styles */
+.recipes {
+    padding: 2em;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.recipe-card {
+    background-color: #fff8dc;
+    border: 1px solid #d3d3d3;
+    padding: 2em; 
+    margin: 1em 0; 
+    width: 60%; 
+    height: 180px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    position: relative;
+    top: 100px;
+
+}
+
+.recipe-card img {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: none;
+    pointer-events: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card h3 {
+    color: #a0522d;
+    margin-bottom: 1em; 
+}
+
+.recipe-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5em 0;
+
+}
+
+.recipe-card ul li {
+    margin: 0.5em 0;
+    line-height: 1.8;
+    pointer-events: none;
+}
+
+.recipe-card ul li a {
+    pointer-events: auto;
+}
+
+.recipe-card a {
+    color: #333;
+    text-decoration: none;
+}
+
+.recipe-card a:hover {
+    color: #a0522d;
+}
+
+/* Image Container Styles */
+.sixth-image {
+    width: 150px; 
+    height:135px; 
+    object-fit: cover; 
+    position: absolute; 
+    left: 50px; 
+    top: 25px;
+}
+
+.seventh-image {
+    width: 420px; 
+    height: 330px; 
+    object-fit: cover; 
+    position: absolute; 
+    left: 1280px; 
+    top: 150px;
+}
+
+.eighth-image {
+    width: 420px; 
+    height: 330px; 
+    object-fit: cover; 
+    position: absolute; 
+    left: 1280px; 
+    top: 520px;
+}
+
+/* Right side styles */
+.right-side {
+    background-color: #f5f5dc; 
+    width: 30%; 
+}
+

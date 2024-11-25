@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex; 
+    height: 100vh; 
+}
+
+/* Left side styles */
+.left-side {
+    background-color: white; 
+    width: 70%; 
+    padding: 2em; 
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav h1 {
+    margin: 0;
+}
+
+/* Navigation links styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 5em;
+    margin: 0;
+    position: absolute; 
+    left: 505px; 
+    top:80px
+}
+
+nav a {
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em; 
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
+
+/* Writing font Styles */
+.findus {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #333;
+    margin: 1em 0;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 90px;
+}
+
+.story2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 1em 0;
+    text-align: left;
+    position: absolute;
+    top: 400px;
+    left: 95px;
+    max-width: 1000px;
+    line-height: 1.5;
+}
+
+/* Image Container Styles */
+.sixth-image {
+    width: 150px; 
+    height:135px; 
+    object-fit: cover; 
+    position: absolute; 
+    left: 50px; 
+    top: 25px;
+}
+
+.tenth-image {
+    width: 560px; 
+    height: 560px; 
+    object-fit: cover; 
+    position: absolute; 
+    left: 1230px; 
+    top: 150px;
+}
+
+/* Contact Button Styles */
+.contact-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 650;
+    margin: 2em auto;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 30px;
+    position: relative;
+    top: 500px;
+    left: -500px;
+}
+
+.contact-button:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+/* Contact Form Styles */
+.contact-form {
+    display: none;
+    background-color: #f5f5f5;
+    padding: 2em;
+    margin: 2em auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    top: 380px;
+    left: -100px;
+    width: 100%;
+    z-index: 0;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.contact-form.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Submit Form Styles */
+.submit-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 1em;
+    width: 100%; 
+}
+
+.submit-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+input[type="email"] {
+    width: 100%; 
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus {
+    border-color: #000;
+    outline: none;
+}
+
+/* Right side styles */
+.right-side {
+    background-color: #f5f5dc; 
+    width: 30%; 
+}

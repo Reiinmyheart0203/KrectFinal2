@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - The Globe 环球咖喱</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="left-side">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Recipe.html">Recipe</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <section class="contact-section">
+            <p class = "findus">How to find us</p>
+            <p class = "story2">
+                Our first store in Asia in Shanghai, China is expected to open in the fall of 2026.
+                We hope you can leave your contact information, and we will send you an email
+                to inform you of our specific address before the opening.
+                We look forward to seeing you in China.
+            </p>
+
+
+            <button class="contact-button" onclick="showForm()">Contact Us</button>
+
+            <div class="contact-form" id="contactForm">
+                <h2>Subscribe for Updates</h2>
+                <form>
+                    <input type="email" id="email" name="email" placeholder="Your email address" required>
+                    <button type="submit" class="submit-button">Subscribe</button>
+                </form> 
+                <p id="thankYouMessage" class="thank-you-message" style="display:none;">Thank you for subscribing!</p>
+            </div>
+        </section>
+        
+    <div class="image-container">
+        <a href="index.html" target="_blank">
+            <img src="logo1.png" alt="The Globe LOGO" class="sixth-image">
+        </a>
+    </div>  
+</div>
+
+    <div class="right-side">
+        <div class="image-container">
+            <img src="shop1.png" alt="The Globe first shop in Madison" class="tenth-image">
+        </div>        
+    </div>
+</body>
+</html>
