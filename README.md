@@ -4,5 +4,5 @@ Recipe: Added mouse hover effects on recipes, and the corresponding pictures wil
 Contact: Added a Contact Me button and a corresponding contact form.
 
 Cited:
-I learned how to correctly querySelector to add mouse hover events to all items from a blog in CSDN.
+I checked how to correctly use querySelector to add mouse hover events to all items from a blog in CSDN.
 https://blog.csdn.net/CYK_byte/article/details/127682587
